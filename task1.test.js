@@ -16,6 +16,6 @@ test('the length of nedjwa is 6 ', () => {
 });
 
 test('the test throws an error', () => {
-  expect(() => throwError("mp")).toThrow(Error);
+  expect(() => throwError("Longwordforthetest")).toThrow(Error);
 });
 
